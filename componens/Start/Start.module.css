@@ -1,0 +1,15 @@
+.divStart{
+  background-color: rgb(173, 162, 162);
+  height: 40px;
+  width: 610px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 600px;
+  padding: 5px;
+}
+
+
+.divStart:hover {
+  background-color: rgb(209, 189, 189);
+}

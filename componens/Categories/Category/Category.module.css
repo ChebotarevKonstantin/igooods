@@ -1,0 +1,8 @@
+.span {
+  padding-right: 10px;
+  color: gray;
+}
+
+.span:hover {
+  color: rgb(15, 15, 15);
+}

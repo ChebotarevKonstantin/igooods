@@ -1,0 +1,36 @@
+.div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: rgba(177, 162, 162, 0.486); */
+  height: 30px;
+  width: 600px;
+  padding: 5px;
+}
+.div2 {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 600px;
+  padding: 5px;
+}
+
+.cart {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  width: 600px;
+  padding: 5px;
+}
+
+.div div button {
+  display: none;
+}
+
+.div:hover {
+  background-color: rgba(160, 17, 17, 0.486);
+}
+
+.div:hover button {
+  display: block;
+}
