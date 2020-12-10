@@ -7,9 +7,8 @@ function Start({ data }) {
 
   return (
     <div >
-      <input className={style.divStart} onClick={() => setModalActive(true)} value={state} placeholder='Найти' />
-      {/* <div className={style.divStart} onClick={()=> setModalActive(true)}> Найти </div> */}
-      <Modal active={modalActive} setActive={setModalActive} data={data} state={state} setState={setState}>
+      <input className={style.divStart} onClick={() => setModalActive(true)} placeholder={state|| 'Найти'} />
+      <Modal key={Math.random()} active={modalActive} setActive={setModalActive} data={data} state={state} setState={setState}>
       </Modal>
     </div>
   );

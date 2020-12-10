@@ -18,7 +18,9 @@ export default function Home(data) {
 
 
 export async function getServerSideProps(context) {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/users`)
+  // const res = await fetch(`https://jsonplaceholder.typicode.com/users`)
+  const res = await fetch(`https://my-json-server.typicode.com/ChebotarevKonstantin/TEST_API/catalog`)
+
   const data = await res.json()
 
   if (!data) {

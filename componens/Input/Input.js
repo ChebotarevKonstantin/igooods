@@ -8,7 +8,6 @@ import style from './Input.module.css'
 function Input({data, state, setState} ) {
   const inp = useRef()
   useEffect(() => { inp.current.focus() }, [])
-  // const [state, setState] = useState('')
   const [res, setRes] = useState(null)
   const clickHandler = () => {
     setState(() => "")
@@ -35,7 +34,7 @@ function Input({data, state, setState} ) {
         setState(e.target.value)
       }} value={state} placeholder='Найти' />
       {state ? <button className={style.button} onClick={clickHandler} >X</button> : null}
-      <Categories state={state} res={res} />
+      <Categories key={Math.random()*Math.random()} state={state} res={res} />
       <List state={state} res={res} />
     </div>
   );

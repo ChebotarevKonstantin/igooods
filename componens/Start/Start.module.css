@@ -1,5 +1,5 @@
 .divStart{
-  background-color: rgb(173, 162, 162);
+  background-color: #F0F1F2;
   height: 40px;
   width: 610px;
   display: flex;
@@ -7,9 +7,11 @@
   height: 30px;
   width: 600px;
   padding: 5px;
+  border-radius: 3px;
+  border: 0;
 }
 
 
 .divStart:hover {
-  background-color: rgb(209, 189, 189);
+  background-color: #d9dbdf;
 }
